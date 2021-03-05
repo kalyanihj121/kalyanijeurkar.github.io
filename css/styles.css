@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+/*  margin-top: 0 auto 0 auto;*/
+  /*margin: 0px;*/
+  font-family: 'Patrick Hand', cursive;
+  /*color: #66bfbf;*/
+  /*color: #532e1c; */
+  color: #f25287;
+  line-height: 2;
+}
+
+h2{
+  /*color: #66bfbf;*/
+  margin-top: 50px;
+  color: #ff4646;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+h3{
+  /*color: #11999e;*/
+  color: #cd5d7d;
+
+}
+
+a{
+  color: #11999e;
+}
+
+.mypic{
+  width: 10%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+p{
+  /*color: #212121;*/
+  /*color: #555555;*/
+  color: #4a3933;
+  font-weight: bold;
+}
+/*.code-desc{
+  clear:left;
+}
+
+.program-desc{
+  clear: right;
+}*/
+
+.html-code{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.program{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.music-note{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*div{
+  background-color: #ffc1f3;
+}*/
+/* relative positioning (position:relative;) does nothing
+without 4 properties top bottom left right
+if we set left:50px then it will nudge from the left
+relative changes the element's position without changing other' position*/
+/* by default position is static */
+/* there are 4 values of position property -
+1. static 2. relative 3. absolute 4. fixed */
+/* absolute positioning is a positioning relative to
+the web page not other elements
+if we set position:absolute and left:100px*/
+.top-container{
+  background-color: #fff3b2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  position: static;
+  background-color: #ffe0d8;
+}
+
+.bottom-container{
+  background-color: #ff9b93;
+  line-height: 2;
+  /*height: 10%;*/
+  padding-top: 20px;
+  padding-bottom: 10px;
+ /* when we say it relative it will nudge 200px from top
+ but relative to other element not the web page.
+ it shifts 200px distance from other element here middle-container div */
+}
+
+.top-img{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 5%;
+}
+
+/*.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}*/
+.btn{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: #f25287;
+}
+
+.footer-link{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.contact-head{
+  margin-top: 5px;
+}
+.contact-subhead{
+  color: #ff4646; 
+}
+.copyright{
+  /*color: #eaf6f6;*/
+  /*color: #f25287;*/
+  color: #ff4646;
+  padding-top: 10px;
+}
